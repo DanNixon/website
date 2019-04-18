@@ -37,6 +37,11 @@ canonifyurls = true
     icon = "fab fa-twitter fa-2x"
     weight = 4
     url = "https://twitter.com/technoducky/"
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase fa-2x"
+    weight = 5
+    url = "https://keybase.io/dannixon"
 
 [[menu.main]]
     name = "About Me"
