@@ -1,0 +1,85 @@
+==================================================================
+https://keybase.io/dannixon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dan-nixon.com
+  * I am dannixon (https://keybase.io/dannixon) on keybase.
+  * I have a public key with fingerprint 84E9 5624 1243 C35E A286  B410 EA06 B7AB A96D 6BB8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016ff26df4eff428f59027065ec381e553139b8f858e4e78df1e3278fa06954ee80a",
+      "fingerprint": "84e956241243c35ea286b410ea06b7aba96d6bb8",
+      "host": "keybase.io",
+      "key_id": "ea06b7aba96d6bb8",
+      "kid": "01016ff26df4eff428f59027065ec381e553139b8f858e4e78df1e3278fa06954ee80a",
+      "uid": "ae57d01a13f44f88dde44f37b873fb19",
+      "username": "dannixon"
+    },
+    "merkle_root": {
+      "ctime": 1572202914,
+      "hash_meta": "b03a09d02a000ef19bd7a326dd5d28c434e03e2adda11469713bd033ae211dcb",
+      "seqno": 8445072
+    },
+    "revoke": {
+      "sig_ids": [
+        "84244afa8a6685e2c31e4d5b8f9603de6e873dc5bbba8044273da72ebfc843100f"
+      ]
+    },
+    "service": {
+      "hostname": "dan-nixon.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1572202915,
+  "expire_in": 157680000,
+  "prev": "64b0eb151d9ab11619abd207c15f2bf780e50d3ee2cdbf3df68e8c766697cd0c",
+  "seqno": 133,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtk39MVlUYx18UG4I/sDZ+JJbvVYsWunPO/f2iy5kStkkq+Bt8Oeeec+UVeO/r
+vVdeyGGJc+QPWCWL1BSwTEszAw3bCs3ZVJyaLs3UwkydOOYPnEGoo/OynFvrz/56
+dp77PN/n+3zOPe8O7u+JiXrtKUUv2liaHHW8nXjy9rXvXCYQi5YJvmVCIesLrIgy
+x/UXBqjgEwAEUDFNpFBTYqYpIc2UdYBUoMjMEDXIZFmEok40U5M1JjFVoyZkIlI1
+EwNFlyXGNICFNMEMBBcxO2QHgi6X1SSmywqSIJJEQ5QZRppCJAgYbyIqJlhXqEKI
+xhsLLCfSwc0R7LBxAYvn+MHfZ+8/6v9n30v75DCTVQoghqIpSaamUcp4FFWiqaJJ
+oB4pdJgdxMWMV1McDAZKraBQniYUM7uwiPlty3IjcA03ECmBsooQQDqU+ILYKfAX
+MxfzTgJEDHQKEAYAMBPqhKpY5FtQmSLNkESJAZEhTCmGUFJ0FYqEAlHEDEFIDcJ9
+OGxJ0BJ8miTJQEXcgc1KrEIWGe4EFnFsjuBbwC8ASQfLJGxiDSuKJjNkiJBJVOZE
+dAWIlCmM70YNmRCCNSBJiJ+wihgxDU0SIQCmkFceGWeXBIw++chNPSEwtg/BOMMq
+5qZCtuVahlXEPxW4bsjxRdC4ZaFIbZgR/z8qfhIIUv6j8I4SZjsBjtAHeeW/qclp
+AisNBWzmDwT70orGeYHIHFbCJRWJAEagDKmOCYQK5IEioBpQNhExVQ0wGVCR8a0p
+MUVqKhrTDFVROFGDAuMJRiiK3ChexEU5vSB2l9pMKI9d3U+M9kTFeEYkeKPTaesU
+5m1ru3As5f7j1zWgX+RpeWIHxj/ObNXiPes/QilrT/ZXvN9blfdfr3ZO9Ex/89nJ
+Ne9nJMTVNG0Kz2svq5l9Z7D38oxfskYfb0R15/Lq8zKXFakzRqTmJD1oXr17wTt7
+purzRxzZ3zX8KLDy1w3sbZ51oelERe+kQVdSz7etOJWyMwAXl8axU2duHG74YNWH
+XRnz669lirsu5u9dTsbWgsQDXS3raG9a+Njt7OHO4ZOvXJw5/lhL9X5h14EDf/41
+eGR4Q0Lle4POT54zdK108/SojhPdDzuuZ2XnZP5+MLp+4J2k5szc9FvZLVXJo5Ye
+mrCgtCA6nNwR27kladpnG19Nzyr+YzZzL19v7P5W2Prpc3e6d+yeWn2rLNUt6pyQ
+O6Dz56qUFV2XuuZsD1f/8PEX174Z09meOxX1XF3otb5WulonvjShsCJ1Vi0St1SW
+Tfb0xGZW9t7KmburYeMz84bWjRteni1sb6xLeLhjyUQL/namNf/l8XtfTHLvDqs5
+pQ+Ze29WT12oeYPvkTdm9Fv2Zh/emWsntN7ed7vt6XMJ9ulHZxaGtsXdqAhO+/EN
+x7N87g39SlO+i1d6UOKeKTlrCoZd3Vy7JivxSMELVnzDoZGdueGoJj0+rm7rT9tm
+nh30/L2qxFUrv8z4PPvK+uqO2b0zj95MNJOmt1waYn336O1f+51OHzOpsWnFvGsd
+UkXHphnxrYsfnM1qyaj13vXe/2pI8ycHabfT0Juc8jc=
+=mIOH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dannixon
+
+==================================================================
