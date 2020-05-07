@@ -18,30 +18,30 @@ canonifyurls = true
     favicon_16 = "/img/favicon-16x16.png"
 
 [[params.social]]
+    name = "Matrix"
+    icon = "fas fa-comment-dots fa-2x"
+    weight = 1
+    url = "https://matrix.to/#/@dannixon:matrix.org"
+[[params.social]]
     name = "Email"
     icon = "fas fa-envelope fa-2x"
-    weight = 1
+    weight = 2
     url = "mailto:dan@dan-nixon.com"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 2
+    weight = 3
     url = "https://github.com/dannixon/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
-    weight = 3
+    weight = 4
     url = "https://www.linkedin.com/in/nixondan"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 4
-    url = "https://twitter.com/technoducky/"
-[[params.social]]
-    name = "Keybase"
-    icon = "fab fa-keybase fa-2x"
     weight = 5
-    url = "https://keybase.io/dannixon"
+    url = "https://twitter.com/technoducky/"
 
 [[menu.main]]
     name = "About Me"
