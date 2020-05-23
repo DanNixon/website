@@ -42,6 +42,16 @@ canonifyurls = true
     icon = "fab fa-twitter fa-2x"
     weight = 5
     url = "https://twitter.com/technoducky/"
+[[params.social]]
+    name = "PGP Key"
+    icon = "fas fa-key fa-2x"
+    weight = 6
+    url = "./pubkey.txt"
+[[params.social]]
+    name = "PGP Fingerprint"
+    icon = "fas fa-fingerprint fa-2x"
+    weight = 7
+    url = "./fingerprint.txt"
 
 [[menu.main]]
     name = "About Me"
