@@ -38,19 +38,14 @@ canonifyurls = true
     weight = 4
     url = "https://www.linkedin.com/in/nixondan"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 5
-    url = "https://twitter.com/technoducky/"
-[[params.social]]
     name = "PGP Key"
     icon = "fas fa-key fa-2x"
-    weight = 6
+    weight = 5
     url = "./pubkey.txt"
 [[params.social]]
     name = "PGP Fingerprint"
     icon = "fas fa-fingerprint fa-2x"
-    weight = 7
+    weight = 6
     url = "./fingerprint.txt"
 
 [[menu.main]]
@@ -59,4 +54,4 @@ canonifyurls = true
     url = "/about/"
 
 [markup.goldmark.renderer]
-    unsafe= true
+    unsafe = true
