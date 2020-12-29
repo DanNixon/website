@@ -47,6 +47,11 @@ canonifyurls = true
     icon = "fas fa-fingerprint fa-2x"
     weight = 6
     url = "./fingerprint.txt"
+[[params.social]]
+    name = "QRZ"
+    icon = "fas fa-broadcast-tower fa-2x"
+    weight = 7
+    url = "https://www.qrz.com/db/M0NXN"
 
 [[menu.main]]
     name = "About Me"
