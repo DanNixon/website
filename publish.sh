@@ -13,4 +13,4 @@ git remote add gh git@github.com:DanNixon/dannixon.github.io.git
 git add .
 git commit -m 'Build'
 
-git push --force gh master
+git push --force gh main
