@@ -3,28 +3,17 @@
     nixpkgs.url = "github:NixOS/nixpkgs";
   };
 
-  outputs = { self, nixpkgs }:
-  let
-    allSystems = [
-      "x86_64-linux"
-      "aarch64-linux"
-      "x86_64-darwin"
-      "aarch64-darwin"
-    ];
-
-    forAllSystems = f: nixpkgs.lib.genAttrs allSystems (system: f {
-      pkgs = import nixpkgs { inherit system; };
-    });
-  in
-  {
-    devShells = forAllSystems ({ pkgs }: {
-      default = pkgs.mkShell {
-        packages = (with pkgs; [
-          gnumake
-          hugo
-        ])
-        ++ pkgs.lib.optionals pkgs.stdenv.isDarwin (with pkgs; [ libiconv ]);
-      };
-    });
-  };
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = import nixpkgs { inherit system; };
+      in rec {
+        devShell = pkgs.mkShell {
+          packages = with pkgs; [
+            gnumake
+            hugo
+          ];
+        };
+      }
+    );
 }
