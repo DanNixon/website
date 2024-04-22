@@ -38,19 +38,9 @@ canonifyurls = true
     weight = 4
     url = "https://www.linkedin.com/in/nixondan"
 [[params.social]]
-    name = "PGP Key"
-    icon = "fas fa-key fa-2x"
-    weight = 5
-    url = "./pubkey.txt"
-[[params.social]]
-    name = "PGP Fingerprint"
-    icon = "fas fa-fingerprint fa-2x"
-    weight = 6
-    url = "./fingerprint.txt"
-[[params.social]]
     name = "QRZ"
     icon = "fas fa-broadcast-tower fa-2x"
-    weight = 7
+    weight = 5
     url = "https://www.qrz.com/db/M0NXN"
 
 [[menu.main]]
