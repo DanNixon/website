@@ -25,12 +25,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      # - name: Publish to Cloudflare Pages
-      #   uses: cloudflare/pages-action@v1
-      #   if: github.ref_name == 'main'
-      #   with:
-      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      #     accountId: YOUR_ACCOUNT_ID
-      #     projectName: YOUR_PROJECT_NAME
-      #     directory: public
-      #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        if: github.ref_name == 'main'
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: e532cde53d2aaf233bc8f913f31a325f
+          projectName: dan-nixon
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
