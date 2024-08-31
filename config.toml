@@ -37,11 +37,6 @@ canonifyurls = true
     icon = "fab fa-linkedin fa-2x"
     weight = 4
     url = "https://www.linkedin.com/in/nixondan"
-[[params.social]]
-    name = "QRZ"
-    icon = "fas fa-broadcast-tower fa-2x"
-    weight = 5
-    url = "https://www.qrz.com/db/M0NXN"
 
 [[menu.main]]
     name = "About Me"
