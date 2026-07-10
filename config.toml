@@ -36,6 +36,7 @@ name = "Mastodon"
 icon = "fab fa-mastodon fa-2x"
 weight = 3
 url = "https://mastodon.social/@dannixon"
+rel = "me"
 
 [[params.social]]
 name = "Github"
